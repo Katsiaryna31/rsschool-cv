@@ -1,0 +1,92 @@
+body {
+     width: 1024px;
+     margin: 0 auto;
+     font-family: Helvetica, Arial, sans-serif;
+     border-bottom: 5px solid rgb(234, 236, 239);
+     margin-bottom: 30px;
+}
+
+ .main-resume {
+     position: relative;
+}
+
+ .resume-photo {
+     position: absolute;
+     top: 0;
+     right: 10px;
+}
+
+ .page-header {
+     font-size: 32px;
+     padding: 24px 0 10px 25px;
+     border-top: 1px solid rgb(234, 236, 239);
+     border-bottom: 1px solid rgb(234, 236, 239);
+}
+
+ .item-name {
+     font-size: 16px;
+     font-weight: 600;
+}
+
+ .contact-item {
+     font-size: 16px;
+     font-weight: 600;
+}
+
+ .skills-list {
+     padding: 10px 15px;
+     list-style-type: none;
+}
+
+ .skills-item {
+     padding-bottom: 10px;
+     position: relative;
+}
+
+ .skills-item::before {
+     content: "";
+     top: 7px;
+     left: -15px;
+     border: 1px solid black;
+     border-radius: 50%;
+     width: 3px;
+     height: 3px;
+     background-color: black;
+     position: absolute;
+}
+
+ .example-code {
+     background-color: #f6f8fa;
+     width: 100%;
+     padding: 16px;
+     margin-bottom: 10px;
+     font-size: 13px;
+     color: #6a2cce;
+}
+
+ .experience-example {
+     padding: 10px 0;
+}
+
+ .experience-example a {
+     color: #111111;
+}
+
+ .courses {
+     margin-bottom: 10px;
+}
+
+ .courses-list {
+     padding: 5px 0;
+}
+
+ .english-skills {
+     margin-bottom: 20px;
+}
+
+.footer-info {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     list-style: none;
+}
