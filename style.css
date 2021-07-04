@@ -83,3 +83,10 @@ body {
  .english-skills {
      margin-bottom: 20px;
 }
+
+.footer-info {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     list-style: none;
+}
